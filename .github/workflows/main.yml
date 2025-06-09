@@ -6,7 +6,7 @@ on:
 jobs:
   macos-debug:
     name: Debug via tmate on macOS
-    runs-on: macos-15
+    runs-on: macos-13
 
     steps:
       - name: Checkout repo
